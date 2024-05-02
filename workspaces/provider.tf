@@ -7,8 +7,8 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "daws76r-state-dev"
-    key    = "foreach"
+    bucket = "daws76v-state-dev"
+    key    = "workspaces"
     region = "us-east-1"
     dynamodb_table = "daws76r-locking-dev"
   }
